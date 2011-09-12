@@ -1,16 +1,14 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <manifest>
-  <remote  name="korg"
-           fetch="git://android.git.kernel.org/"
-           review="review.source.android.com" />
+  <remote fetch="git://codeaurora.org/" name="caf" review="codeaurora.org"/>
   <default revision="refs/tags/android-2.3.4_r1"
-           remote="korg" />
+           remote="caf" />
 
-  <project path="build" name="platform/build">
+  <project path="build" name="android_platform_build">
     <copyfile src="core/root.mk" dest="Makefile" />
   </project>
-  <project path="bionic" name="platform/bionic" />
-  <project path="bootable/bootloader/legacy" name="platform/bootable/bootloader/legacy" />
+  <project path="bionic" name="android_platform_bionic" />
+  <project path="bootable/bootloader/legacy" name="android_platform/bootable/bootloader/legacy" />
   <project path="bootable/diskinstaller" name="platform/bootable/diskinstaller" />
   <project path="bootable/recovery" name="platform/bootable/recovery" />
   <project path="cts" name="platform/cts" />
