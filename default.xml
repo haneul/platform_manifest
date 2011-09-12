@@ -7,8 +7,8 @@
   <project path="build" name="android_platform_build">
     <copyfile src="core/root.mk" dest="Makefile" />
   </project>
-  <project path="bionic" name="android_platform_bionic" />
-  <project path="bootable/bootloader/legacy" name="android_platform/bootable/bootloader/legacy" />
+  <project path="bionic" name="platform/bionic" />
+  <project path="bootable/bootloader/legacy" name="platform/bootable/bootloader/legacy" />
   <project path="bootable/diskinstaller" name="platform/bootable/diskinstaller" />
   <project path="bootable/recovery" name="platform/bootable/recovery" />
   <project path="cts" name="platform/cts" />
