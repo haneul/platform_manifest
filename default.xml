@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <manifest>
-  <remote fetch="jjung@beamer.cs.washington.edu:/var/git/projects/" name="local" review="codeaurora.org"/>
+  <remote fetch="http://beamer.cs.washington.edu/projects/" name="local" review="codeaurora.org"/>
   <default revision="refs/tags/android-2.3.4_r1"
            remote="local" />
 
